@@ -1,0 +1,118 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sigin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:padding="3dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="143dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/add_person_logo" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome To Our App Sign In Below"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/etname"
+            android:background="@drawable/style_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_user"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:hint="Names"/>
+
+        <EditText
+            android:id="@+id/etproffession"
+            android:background="@drawable/style_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_email_black"
+            android:drawablePadding="10dp"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:hint="email"/>
+
+
+
+        <EditText
+            android:id="@+id/etpassword"
+            android:background="@drawable/style_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_password"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:hint="Password"
+            android:inputType="textPassword"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/imgadd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:scaleType="centerInside"
+                android:background="@drawable/button_layout_exercise"
+                android:text="Sign In" />
+
+            <Button
+                android:id="@+id/loginbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:scaleType="centerInside"
+                android:background="@drawable/button_layout"
+                android:text="Login" />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+</ScrollView>

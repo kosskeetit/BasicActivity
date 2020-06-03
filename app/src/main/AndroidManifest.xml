@@ -4,15 +4,19 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/zido_icon"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ThirdActivity"></activity>
+        <activity android:name=".UsersActivity"></activity>
+        <activity android:name=".Login" />
+        <activity android:name=".Sigin" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ThirdActivity" />
         <activity android:name=".SecondActivity" />
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashScreen"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
